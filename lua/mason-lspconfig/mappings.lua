@@ -20,7 +20,8 @@ function M.get_mason_map()
 end
 
 function M.get_filetype_map()
-    return require "mason-lspconfig.filetype_mappings" or {}
+    return {}
+    -- return require "mason-lspconfig.filetype_mappings"
 end
 
 function M.get_all()
